@@ -1,9 +1,5 @@
 from Crypto.Cipher import AES
-from Crypto.Util.Padding import pad, unpad
-from Crypto.Random import get_random_bytes
 import base64
-import argparse
-import os
 
 def encrypt_aes_gcm(plain_text, key):
     cipher = AES.new(key, AES.MODE_GCM)

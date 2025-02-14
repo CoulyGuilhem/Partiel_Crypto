@@ -1,5 +1,7 @@
 # Partiel cryptographie
 
+pip install pycryptodome
+
 1) Utilisation:
 
 ### Encrypt : 
